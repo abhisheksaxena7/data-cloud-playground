@@ -1,13 +1,21 @@
 {
-  "orgName": "abhisheksaxena company",
+  "orgName": "Abhi Data Cloud Scratch Org",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "hasSampleData": false,
+  "features": [
+    "EnableSetPasswordInApi",
+    "CustomerDataPlatform",
+    "MarketingUser"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "customerDataPlatformSettings": {
+      "enableCustomerDataPlatform": true
     }
   }
 }
